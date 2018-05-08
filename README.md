@@ -34,6 +34,6 @@ phpunit
 
 Images of the site can be found here:
 
-![alt text](https://github.com/juanjolainez/SearchEngineScraper/public/images/search.png "Search Page")
-![alt text](https://github.com/juanjolainez/SearchEngineScraper/public/images/results1.png "Results")
-![alt text](https://github.com/juanjolainez/SearchEngineScraper/public/images/results2.png "Results")
+![alt text](https://github.com/juanjolainez/SearchEngineScraper/blob/master/public/images/search.png "Search Page")
+![alt text](https://github.com/juanjolainez/SearchEngineScraper/blob/master/public/images/results1.png "Results")
+![alt text](https://github.com/juanjolainez/SearchEngineScraper/blob/master/public/images/results2.png "Results")
