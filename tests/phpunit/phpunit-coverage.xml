@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="Bootstrap.php">
+    <testsuites>
+        <testsuite name="Plain PHP Unit Test Suite">
+            <directory>./unit</directory>
+        </testsuite>
+        <testsuite name="Integration Test Suite">
+            <directory>./integration</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">../../php/Composa/</directory>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <log type="coverage-html" target="../logs/report" charset="UTF-8" yui="true" highlight="true" lowUpperBound="60" highLowerBound="85"/>
+        <log type="testdox-html" target="../logs/report.html" />
+        <log type="metrics-xml" target="../logs/metrics.xml"/>
+        <log type="pmd-xml" target="../logs/pmd.xml" cpdMinLines="5" cpdMinMatches="70"/>
+        <log type="test-xml" target="../logs/logfile.xml" logIncompleteSkipped="false"/>
+        <log type="coverage-clover" target="../logs/clover.xml"/>
+        <log type="junit" target="../logs/junit.xml" logIncompleteSkipped="false"/>
+    </logging>
+</phpunit>
