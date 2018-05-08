@@ -6,7 +6,6 @@ use Models\Result;
 /**
  * JSONEncoder class
  *
- * @author	Juanjo Lainez
  */
 class JSONEncoder
 {

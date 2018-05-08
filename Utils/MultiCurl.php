@@ -6,7 +6,6 @@ use Cache\KeyValueCache;
 /**
  * Util helper
  *
- * @author	Juanjo Lainez
  */
 class MultiCurl
 {

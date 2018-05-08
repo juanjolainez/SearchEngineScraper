@@ -5,7 +5,6 @@ namespace Models;
 /**
  * Result generic model
  *
- * @author	Juanjo Lainez
  */
 abstract class Result
 {

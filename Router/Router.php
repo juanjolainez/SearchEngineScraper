@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jreche
- * Date: 5/7/18
- * Time: 10:44 AM
- */
 
 namespace Router;
 

@@ -13,7 +13,6 @@ use Providers\SearchProvider;
  * Search Engine model. It's implemented as a singleton to avoid
  * too many class creations
  *
- * @author	Juanjo Lainez
  */
 class SearchEngine
 {

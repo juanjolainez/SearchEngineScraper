@@ -5,7 +5,6 @@ namespace Factories;
 /**
  * Factory to render views.
  *
- * @author	Juanjo Lainez
  */
 class View
 {

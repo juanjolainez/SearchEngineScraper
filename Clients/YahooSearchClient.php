@@ -1,15 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jreche
- * Date: 5/2/18
- * Time: 6:41 PM
- */
 
 namespace Clients;
 
 use Models\YahooResult;
 
+/**
+ * Class YahooSearchClient
+ * @package Clients
+ */
 class YahooSearchClient extends HTMLSearchClient implements ISearchClient
 {
     const YAHOO_URL = 'https://search.yahoo.com/search?p={QUERY}&b={START}';

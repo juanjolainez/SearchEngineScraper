@@ -10,7 +10,6 @@ require_once __DIR__ . "/../Models/GoogleResult.php";
 /**
  * Google Search Page Parser
  *
- * @author	Juanjo Lainez
  */
 class GoogleHtmlParser extends HtmlParser
 {

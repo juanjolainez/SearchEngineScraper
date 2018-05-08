@@ -1,16 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jreche
- * Date: 5/2/18
- * Time: 6:41 PM
- */
 
 namespace Clients;
 
 use Models\GoogleResult;
 use Utils\MultiCurl;
 
+/**
+ * Class HTMLSearchClient
+ * @package Clients
+ */
 abstract class HTMLSearchClient implements ISearchClient
 {
     /**
@@ -30,5 +28,10 @@ abstract class HTMLSearchClient implements ISearchClient
         return $multicurl->performMultiGet($urls);
     }
 
+    /**
+     * @param string $word
+     * @param int $num_results
+     * @return string[]
+     */
     public abstract function getUrls(string $word, int $num_results);
 }

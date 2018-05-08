@@ -8,7 +8,8 @@
 
 namespace Exceptions;
 
-
-class ClientNotFoundException extends \Exception
-{
-}
+/**
+ * Class ClientNotFoundException
+ * @package Exceptions
+ */
+class ClientNotFoundException extends \Exception{}

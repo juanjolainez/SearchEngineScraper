@@ -12,7 +12,7 @@ interface IKeyValueCacheDriver
 {
     /**
      * @param String $key Key
-     * @return \stdClass
+     * @return mixed
      */
     public function get(string $key);
 

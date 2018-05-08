@@ -14,6 +14,9 @@ class MemcacheDriver
      */
     protected $connection;
 
+    /**
+     * MemcacheDriver constructor.
+     */
     public function __construct()
     {
         $this->connection = new \Memcached();

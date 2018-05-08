@@ -5,7 +5,7 @@ use Cache\IKeyValueCacheDriver;
 use Cache\MemcacheDriver;
 
 /**
- * KeyValueCache. It uses memcache 
+ * KeyValueCache. It uses memcached by default
  *
  * @author	Juanjo Lainez
  */
@@ -17,6 +17,10 @@ class KeyValueCache
      */
     protected $driver;
 
+    /**
+     * KeyValueCache constructor.
+     * @param \Cache\IKeyValueCacheDriver|null $driver
+     */
 	public function __construct(IKeyValueCacheDriver $driver = null)
 	{
         if ($driver) {
@@ -26,6 +30,9 @@ class KeyValueCache
         }
 	}
 
+    /**
+     * @return \Cache\MemcacheDriver
+     */
     protected function getDefaultDriver()
     {
         return new MemcacheDriver();
@@ -58,6 +65,5 @@ class KeyValueCache
     {
         return $this->driver->exists($key);
     }
-
 }
 

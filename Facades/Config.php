@@ -5,7 +5,6 @@ namespace Facades;
 /**
  * Configuration class
  *
- * @author	Juanjo Lainez
  */
 class Config
 {
@@ -44,6 +43,7 @@ class Config
             $this->content = [];
         }
     }
+    
 	/**
 	 * Returns the value of $searchString in the config file if 
 	 * found, null otherwise

@@ -1,16 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jreche
- * Date: 5/2/18
- * Time: 6:41 PM
- */
 
 namespace Clients;
 
 use Models\GoogleResult;
 use Utils\MultiCurl;
 
+/**
+ * Class GoogleSearchClient
+ * @package Clients
+ */
 class GoogleSearchClient extends HTMLSearchClient implements ISearchClient
 {
     const GOOGLE_URL = 'https://www.google.com/search?q={QUERY}&start={START}';

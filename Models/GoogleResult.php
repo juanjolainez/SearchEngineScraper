@@ -8,7 +8,6 @@ require_once __DIR__ . "/Result.php";
 /**
  * GoogleResult model
  *
- * @author	Juanjo Lainez
  */
 class GoogleResult extends Result
 {
